@@ -1,12 +1,15 @@
 
 /*-------------------------------------------  general -------------------------------------------------------*/
 body{
+	background: #ffffff url(../img/underwater.jpg);
 	font-size: 62.5%;
 	font-family: helvetica, arial, sans-serif;
-	color:#545257; /*changes color of the whole text*/
+	color:#25383C; /*changes color of the whole text*/
 	margin-top: 0;
-	box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.35);
-	width: 90%;
+	box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.35);
+	-webkit-box-shadow: 5px 6px 5px rgba(255, 255, 255, 0.35);
+	-moz-box-shadow: 5px 6px 5px rgba(255, 255, 255, 0.35);
+	width: 100%;
 	
 	
 	
@@ -19,9 +22,9 @@ body{
 	margin: 0 auto;
 	padding-left: 1%;
 	padding-right: 1%;
-	-webkit-box-shadow: 0px 0px 5px #ececec;
-	-moz-box-shadow:    0px 0px 5px #ececec;
-	box-shadow:         0px 0px 5px #ececec;
+	box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.35);
+	-webkit-box-shadow: 5px 6px 5px rgba(255, 255, 255, 0.35);
+	-moz-box-shadow: 5px 6px 5px rgba(255, 255, 255, 0.35);
 
 }
 /*-------------------------------------------  header -------------------------------------------------------*/
@@ -33,15 +36,31 @@ header{
 h1{
 	margin-top: 0;
 	padding-top: 10px;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
 }
 h2{
 	margin-top: 20px;
+	text-shadow: 0 1px 0 #92E2C2;
 }
 /*-------------------------------------------  table -------------------------------------------------------*/
 table{
 	background: #92E2C2;  /*changes color of the background of the table*/
 	border-collapse: collapse;
 	width: 100%;
+	box-shadow: .313em .313em .313em rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: .313em .313em .313em rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: .313em .313em .313em rgba(0, 0, 0, 0.35);
 }
 tr{
 	display: table-row;
@@ -58,6 +77,7 @@ tr{
 }
 th{
 	text-align: left;
+	text-shadow: 1px 1px #3DBEA9;
 	padding: 1em 1em .5em;
 	font-weight: bold;
 	font-size: 120%;
@@ -77,7 +97,7 @@ td:first-child{
 /*-------------------------------------------  top section-------------------------------------------------------*/
 .main{
 
-	overflow: auto;
+	overflow: hidden;
 	/*border-bottom: 1px solid #bbb8bf;*/
 }
 .main p{
@@ -90,10 +110,17 @@ td:first-child{
 	float: right;
 	margin: 15px 0 20px 0;
 	width: 30%;
+	
 
 }
 figure img{
-	width: 100%;
+	width: 95%;
+	border: double;
+	border-color: #E8F5D4;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+	-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
+	
 }
 .sec{
 	clear: both;
