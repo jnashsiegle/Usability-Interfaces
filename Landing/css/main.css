@@ -122,6 +122,11 @@ figure img{
 	-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.35);
 	
 }
+
+figure figcaption {
+	font-size: 60%
+}
+
 .sec{
 	clear: both;
 	margin-top: 40px;
