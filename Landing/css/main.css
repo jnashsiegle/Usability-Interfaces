@@ -5,6 +5,9 @@ body{
 	font-family: helvetica, arial, sans-serif;
 	color:#545257; /*changes color of the whole text*/
 	margin-top: 0;
+	box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.35);
+	width: 90%;
+	
 	
 	
 	
@@ -44,6 +47,12 @@ tr{
 	display: table-row;
 	border-color: inherit;
 }
+
+	table tr:hover td a{
+	background: #1C6Ba0;
+	color: white;
+	}
+	
 .odd{
 	background: #3DBEA9; /*changes color of the stripes table*/
 }
